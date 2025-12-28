@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Burger's Spot Panigate</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#fff5e1;
+  color:#3a2d1f;
+}
+header{
+  background:#f57c00;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+  font-size:1.8rem;
+  font-weight:bold;
+}
+.address{
+  font-size:1rem;
+  margin:5px 0;
+}
+.container{
+  max-width:760px;
+  margin:20px auto;
+  background:#fff;
+  border-radius:8px;
+  box-shadow:0 5px 15px #d8c9b7;
+  padding:15px;
+}
+h2{
+  color:#d35400;
+  border-bottom:2px solid #f57c00;
+  padding-bottom:6px;
+}
+.combo{
+  margin-top:15px;
+  display:grid;
+  grid-template-columns:120px 1fr;
+  gap:15px;
+  align-items:center;
+}
+.combo img{
+  max-width:120px;
+  border-radius:8px;
+}
+.price{
+  font-size:1.4rem;
+  font-weight:bold;
+  color:#e67e22;
+  margin-top:8px;
+}
+footer{
+  text-align:center;
+  background:#f57c00;
+  color:#fff;
+  padding:15px;
+  margin-top:30px;
+}
+@media(max-width:600px){
+  .combo{
+    grid-template-columns:1fr;
+    text-align:center;
